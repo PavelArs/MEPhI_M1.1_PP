@@ -1,9 +1,20 @@
 [package]
-name = "untitled"
-version = "0.1.0"
+name = "pp_labs"
+version = "0.1.1"
+authors = ["Pavel Ars <pro100pavel.ars@yandex.ru>"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 wav_io = "0.1.8"
+num-integer = "0.1.45"
+#libc = "0.2" # библиотека rust для работы С кодом
+#rand = "0.8.5" # библиотека rust для работы с случайными величинами
+#rustacuda = "0.1"
+#rustacuda_core = "0.1"
+#rustacuda_derive = "0.1"
+
+
+[build-dependencies]
+#cc = { version = "1.0", features = ["parallel"] } # rust пакет для сборки С кода
