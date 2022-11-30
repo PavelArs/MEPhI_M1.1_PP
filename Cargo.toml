@@ -10,12 +10,13 @@ edition = "2021"
 wav_io = "0.1.8"
 num-integer = "0.1.45"
 winapi = { version = "0.3", features = ["processthreadsapi","handleapi","winbase","synchapi","minwinbase","winnt"] }
-#libc = "0.2" # библиотека rust для работы С кодом
-#rand = "0.8.5" # библиотека rust для работы с случайными величинами
-#rustacuda = "0.1"
-#rustacuda_core = "0.1"
-#rustacuda_derive = "0.1"
+nix = "0.25.0"
+rustacuda = "0.1"
+rustacuda_core = "0.1"
+rustacuda_derive = "0.1"
+libc = "0.2.137"
+rand = "0.5.5"
 
 
-[build-dependencies]
-#cc = { version = "1.0", features = ["parallel"] } # rust пакет для сборки С кода
+#[build-dependencies]
+cc = { version = "1.0", features = ["parallel"] }
